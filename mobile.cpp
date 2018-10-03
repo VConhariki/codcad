@@ -21,21 +21,15 @@ int dfs(int x){
 					puts("mal");
 					exit(0);
 				
-				}
-			
+				}	
 			}
-		
-		
+			
 		}
-	
-	
+		
 	}
-
 
 	return alt*(v[x].size()-1) +1;
 }
-
-
 
 int main(){
 
